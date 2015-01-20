@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.i18n.reload" value="false" />
+
+    <constant name="struts.custom.i18n.resources" value="globalMessages" />
+    <constant name="struts.enable.DynamicMethodinvocation" value="false"></constant>
+    <constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+    <constant name="struts.multipart.maxSize" value="9000000"/>
+    <constant name="struts.custom.i18n.resources" value="ApplicationResources"/>
+
+    <package name="stuinfo" extends="struts-default,json-default" namespace="/">
+        <!-- 登陆-->
+        <action name="mylogin" class="com.shinow.actions.LoginAction" method="logintest">
+     <result type="json" name="ok">
+   <!--  <param name="includeProperties">message,success</param>
+   -->
+     </result>
+        </action>
+        <action name="select" class="com.shinow.actions.LoginAction" method="check">
+            <result type="json" name="success">
+                <!--
+<param name="ignoreHierarchy">true</param>
+                <param name="includeProperties">userList</param>
+                -->
+                <param name="excludeProperties">\\[\\d+\\]\\.userinfosBySexTypeCode,\\[\\d+\\]\\.adminInfosBySexTypeCode</param>
+
+            </result>
+             </action>
+        <action name="insn" class="com.shinow.actions.PageAction" method="test1">
+            <result type="json" name="ok"></result>
+        </action>
+        <action name="tomcat" class="com.shinow.actions.PagesizeAction" method="test2">
+            <result type="json" name="ok"></result>
+        </action>
+        <!-- 添加-->
+        <action name="insert1" class="com.shinow.actions.AddMsgAction" method="savetest">
+            <result type="json" name="ok">/main.jsp</result>
+        </action>
+        <!-- 删除-->
+        <action name="delete2" class="com.shinow.actions.DeleteMsgAction" method="delmsg">
+            <result type="json" name="success" ></result>
+        </action>
+        <!--性别查询-->
+        <action name="sex1" class="com.shinow.actions.QuerySexAction" method="sextype">
+            <result type="json">  <param name="excludeProperties">sexlist.*.userinfosBySexTypeCode,sexlist.*.adminInfosByRoleId</param>
+            </result>
+        </action>
+        <!-- 更新-->
+        <action name="update3" class="com.shinow.actions.UpdateAction" method="updateMsg">
+            <result type="json" name="ok" ></result>
+        </action>
+
+        <action name="show" class="com.shinow.actions.ShowViewAction" method="showview">
+            <result type="json" name="ok"></result>
+        </action>
+    </package>
+
+
+
+</struts>

@@ -1,0 +1,11 @@
+{"menulist":
+
+    [{"childmenuinfosByMenuId":
+
+        [{"childId":1,"childName":"李伟高","menuInfoByMenuId":null},{"childId":6,"childName":"哈哈","menuInfoByMenuId":null}],"menuId":1,"menuName":"java班"},
+
+{"childmenuinfosByMenuId":[{"childId":2,"childName":"庚同飞","menuInfoByMenuId":null}],"menuId":2,"menuName":".net班"},
+
+     {"childmenuinfosByMenuId":[{"childId":3,"childName":"孙超","menuInfoByMenuId":null},{"childId":4,"childName":"刘东洋","menuInfoByMenuId":null}],"menuId":3,"menuName":"php班"},
+
+  {"childmenuinfosByMenuId":[{"childId":5,"childName":"杨钊","menuInfoByMenuId":null}],"menuId":4,"menuName":"web班"}]}

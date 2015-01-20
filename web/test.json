@@ -1,0 +1,338 @@
+{"isno": false, "message": null, "user": null, "userList": [
+    {
+        "adminInfosBySexTypeCode": [
+            {
+                "adminId": 1,
+                "adminName": "wang",
+                "adminPass": "123",
+                "roleTypesByRoleId": {
+                    "adminInfosByRoleId": [null],
+                    "roleId": 1,
+                    "roleName": "管理员",
+                    "userinfosByRoleId": []
+                },
+                "sexTypesBySexTypeCode": null
+            }
+        ],
+        "sexTypeCode": 1,
+        "sexTypeName": "男",
+        "userinfosBySexTypeCode": [
+            {
+                "birthday": "2014-09-30T00:00:00",
+                "messagesByUserId": [
+                    {
+                        "msgId": 1,
+                        "postContent": "<p><img src=\"http:\/\/www.jiankangzu.com\/pian\/02\/2012022116421925306.jpg\" alt=\"2012022116421925306.jpg\"\/><\/p>",
+                        "postTime": "2014-10-15T16:05:07",
+                        "replyMsgsByMsgId": [],
+                        "userinfoByUserId": null
+                    }
+                ],
+                "nickName": "yang",
+                "passQuesAnsw": "hehe",
+                "passQuestion": "haha",
+                "pic": null,
+                "questEmailAddr": "1231",
+                "replyMsgsByUserId": [],
+                "roleTypesByRoleId": {
+                    "adminInfosByRoleId": [],
+                    "roleId": 0,
+                    "roleName": "普通用户",
+                    "userinfosByRoleId": [null, {
+                        "birthday": "2014-09-29T00:00:00",
+                        "messagesByUserId": [],
+                        "nickName": "asda",
+                        "passQuesAnsw": "asda",
+                        "passQuestion": "asda",
+                        "pic": null,
+                        "questEmailAddr": "addasd",
+                        "replyMsgsByUserId": [],
+                        "roleTypesByRoleId": null,
+                        "sexTypesBySexTypeCode": null,
+                        "userId": 4,
+                        "userName": "hahahah",
+                        "userPass": "123"
+                    }, {
+                        "birthday": "2014-09-29T00:00:00",
+                        "messagesByUserId": [],
+                        "nickName": "aasaa",
+                        "passQuesAnsw": "asda",
+                        "passQuestion": "asd",
+                        "pic": null,
+                        "questEmailAddr": "1234",
+                        "replyMsgsByUserId": [],
+                        "roleTypesByRoleId": null,
+                        "sexTypesBySexTypeCode": null,
+                        "userId": 5,
+                        "userName": "aaaa",
+                        "userPass": "123"
+                    }, {
+                        "birthday": "2014-09-29T00:00:00",
+                        "messagesByUserId": [],
+                        "nickName": "asda",
+                        "passQuesAnsw": "asd",
+                        "passQuestion": "asd",
+                        "pic": null,
+                        "questEmailAddr": "asda",
+                        "replyMsgsByUserId": [],
+                        "roleTypesByRoleId": null,
+                        "sexTypesBySexTypeCode": null,
+                        "userId": 6,
+                        "userName": "aasd",
+                        "userPass": "123"
+                    }]
+                },
+                "sexTypesBySexTypeCode": null,
+                "userId": 2,
+                "userName": "yang",
+                "userPass": "123"
+            },
+            {
+                "birthday": "2014-09-29T00:00:00",
+                "messagesByUserId": [],
+                "nickName": "dasda",
+                "passQuesAnsw": "asd",
+                "passQuestion": "sdada",
+                "pic": null,
+                "questEmailAddr": "asasda",
+                "replyMsgsByUserId": [],
+                "roleTypesByRoleId": null,
+                "sexTypesBySexTypeCode": null,
+                "userId": 3,
+                "userName": "hahah",
+                "userPass": "1234"
+            },
+            {
+                "birthday": "2014-09-29T00:00:00",
+                "messagesByUserId": [],
+                "nickName": "asda",
+                "passQuesAnsw": "asda",
+                "passQuestion": "asda",
+                "pic": null,
+                "questEmailAddr": "addasd",
+                "replyMsgsByUserId": [],
+                "roleTypesByRoleId": {
+                    "adminInfosByRoleId": [],
+                    "roleId": 0,
+                    "roleName": "普通用户",
+                    "userinfosByRoleId": [
+                        {
+                            "birthday": "2014-09-30T00:00:00",
+                            "messagesByUserId": [
+                                {
+                                    "msgId": 1,
+                                    "postContent": "<p><img src=\"http:\/\/www.jiankangzu.com\/pian\/02\/2012022116421925306.jpg\" alt=\"2012022116421925306.jpg\"\/><\/p>",
+                                    "postTime": "2014-10-15T16:05:07",
+                                    "replyMsgsByMsgId": [],
+                                    "userinfoByUserId": null
+                                }
+                            ],
+                            "nickName": "yang",
+                            "passQuesAnsw": "hehe",
+                            "passQuestion": "haha",
+                            "pic": null,
+                            "questEmailAddr": "1231",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 2,
+                            "userName": "yang",
+                            "userPass": "123"
+                        },
+                        null,
+                        {
+                            "birthday": "2014-09-29T00:00:00",
+                            "messagesByUserId": [],
+                            "nickName": "aasaa",
+                            "passQuesAnsw": "asda",
+                            "passQuestion": "asd",
+                            "pic": null,
+                            "questEmailAddr": "1234",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 5,
+                            "userName": "aaaa",
+                            "userPass": "123"
+                        },
+                        {
+                            "birthday": "2014-09-29T00:00:00",
+                            "messagesByUserId": [],
+                            "nickName": "asda",
+                            "passQuesAnsw": "asd",
+                            "passQuestion": "asd",
+                            "pic": null,
+                            "questEmailAddr": "asda",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 6,
+                            "userName": "aasd",
+                            "userPass": "123"
+                        }
+                    ]
+                },
+                "sexTypesBySexTypeCode": null,
+                "userId": 4,
+                "userName": "hahahah",
+                "userPass": "123"
+            },
+            {
+                "birthday": "2014-09-29T00:00:00",
+                "messagesByUserId": [],
+                "nickName": "aasaa",
+                "passQuesAnsw": "asda",
+                "passQuestion": "asd",
+                "pic": null,
+                "questEmailAddr": "1234",
+                "replyMsgsByUserId": [],
+                "roleTypesByRoleId": {
+                    "adminInfosByRoleId": [],
+                    "roleId": 0,
+                    "roleName": "普通用户",
+                    "userinfosByRoleId": [
+                        {
+                            "birthday": "2014-09-30T00:00:00",
+                            "messagesByUserId": [
+                                {
+                                    "msgId": 1,
+                                    "postContent": "<p><img src=\"http:\/\/www.jiankangzu.com\/pian\/02\/2012022116421925306.jpg\" alt=\"2012022116421925306.jpg\"\/><\/p>",
+                                    "postTime": "2014-10-15T16:05:07",
+                                    "replyMsgsByMsgId": [],
+                                    "userinfoByUserId": null
+                                }
+                            ],
+                            "nickName": "yang",
+                            "passQuesAnsw": "hehe",
+                            "passQuestion": "haha",
+                            "pic": null,
+                            "questEmailAddr": "1231",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 2,
+                            "userName": "yang",
+                            "userPass": "123"
+                        },
+                        {
+                            "birthday": "2014-09-29T00:00:00",
+                            "messagesByUserId": [],
+                            "nickName": "asda",
+                            "passQuesAnsw": "asda",
+                            "passQuestion": "asda",
+                            "pic": null,
+                            "questEmailAddr": "addasd",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 4,
+                            "userName": "hahahah",
+                            "userPass": "123"
+                        },
+                        null,
+                        {
+                            "birthday": "2014-09-29T00:00:00",
+                            "messagesByUserId": [],
+                            "nickName": "asda",
+                            "passQuesAnsw": "asd",
+                            "passQuestion": "asd",
+                            "pic": null,
+                            "questEmailAddr": "asda",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 6,
+                            "userName": "aasd",
+                            "userPass": "123"
+                        }
+                    ]
+                },
+                "sexTypesBySexTypeCode": null,
+                "userId": 5,
+                "userName": "aaaa",
+                "userPass": "123"
+            },
+            {
+                "birthday": "2014-09-29T00:00:00",
+                "messagesByUserId": [],
+                "nickName": "asda",
+                "passQuesAnsw": "asd",
+                "passQuestion": "asd",
+                "pic": null,
+                "questEmailAddr": "asda",
+                "replyMsgsByUserId": [],
+                "roleTypesByRoleId": {
+                    "adminInfosByRoleId": [],
+                    "roleId": 0,
+                    "roleName": "普通用户",
+                    "userinfosByRoleId": [
+                        {
+                            "birthday": "2014-09-30T00:00:00",
+                            "messagesByUserId": [
+                                {
+                                    "msgId": 1,
+                                    "postContent": "<p><img src=\"http:\/\/www.jiankangzu.com\/pian\/02\/2012022116421925306.jpg\" alt=\"2012022116421925306.jpg\"\/><\/p>",
+                                    "postTime": "2014-10-15T16:05:07",
+                                    "replyMsgsByMsgId": [],
+                                    "userinfoByUserId": null
+                                }
+                            ],
+                            "nickName": "yang",
+                            "passQuesAnsw": "hehe",
+                            "passQuestion": "haha",
+                            "pic": null,
+                            "questEmailAddr": "1231",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 2,
+                            "userName": "yang",
+                            "userPass": "123"
+                        },
+                        {
+                            "birthday": "2014-09-29T00:00:00",
+                            "messagesByUserId": [],
+                            "nickName": "asda",
+                            "passQuesAnsw": "asda",
+                            "passQuestion": "asda",
+                            "pic": null,
+                            "questEmailAddr": "addasd",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 4,
+                            "userName": "hahahah",
+                            "userPass": "123"
+                        },
+                        {
+                            "birthday": "2014-09-29T00:00:00",
+                            "messagesByUserId": [],
+                            "nickName": "aasaa",
+                            "passQuesAnsw": "asda",
+                            "passQuestion": "asd",
+                            "pic": null,
+                            "questEmailAddr": "1234",
+                            "replyMsgsByUserId": [],
+                            "roleTypesByRoleId": null,
+                            "sexTypesBySexTypeCode": null,
+                            "userId": 5,
+                            "userName": "aaaa",
+                            "userPass": "123"
+                        },
+                        null
+                    ]
+                },
+                "sexTypesBySexTypeCode": null,
+                "userId": 6,
+                "userName": "aasd",
+                "userPass": "123"
+            }
+        ]
+    },
+    {
+        "adminInfosBySexTypeCode": [],
+        "sexTypeCode": 2,
+        "sexTypeName": "女",
+        "userinfosBySexTypeCode": []
+    }
+], "userName": null, "userPass": null}

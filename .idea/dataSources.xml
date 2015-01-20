@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1703907553">
+    <data-source source="LOCAL" name="SQL Server - bbs@localhost" uuid="7180f463-0777-4c1f-b090-6fbb6adb3cbc">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;databaseName=bbs</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/web/WEB-INF/lib/sqljdbc4-4.0.2206.100.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
